@@ -1,0 +1,26 @@
+{
+  "name": "gitprofiler",
+  "version": "1.0.0",
+  "description": "a simple app to get github profiles",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ann-glitch/gitprofiler.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "ann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ann-glitch/gitprofiler/issues"
+  },
+  "homepage": "https://github.com/ann-glitch/gitprofiler#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  }
+}

@@ -1,5 +1,6 @@
 const { response } = require("express");
 const express = require("express");
+
 const axios = require("axios").default;
 
 const app = express();
@@ -17,7 +18,6 @@ app.get("/:username", function (req, res) {
     .then(function (response) {
       if (response.status == 200) {
         console.log(response);
-
         res.json({
           login: response.data.login,
           name: response.data.name,
@@ -33,5 +33,5 @@ app.get("/:username", function (req, res) {
 });
 
 app.listen(port, () => {
-  console.log("running app...");
+  console.log(`running app on port => ${port}`);
 });
